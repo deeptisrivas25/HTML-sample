@@ -1,0 +1,28 @@
+$paddingSize: 5, 6, 7, 8, 9, 10;
+@each $padding in $paddingSize {
+  .paddingsize-#{$padding} {
+    padding: $padding px;
+  }
+}
+
+/* out put 
+
+ .paddingsize-5 {
+	 padding: 5 px;
+}
+ .paddingsize-6 {
+	 padding: 6 px;
+}
+ .paddingsize-7 {
+	 padding: 7 px;
+}
+ .paddingsize-8 {
+	 padding: 8 px;
+}
+ .paddingsize-9 {
+	 padding: 9 px;
+}
+ .paddingsize-10 {
+	 padding: 10 px;
+}
+ */
