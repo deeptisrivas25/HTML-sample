@@ -1,28 +1,12 @@
-$paddingSize: 5, 6, 7, 8, 9, 10;
-@each $padding in $paddingSize {
-  .paddingsize-#{$padding} {
-    padding: $padding px;
-  }
+.container {
+  font-weight: 400;
+  padding: 5px;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100px;
 }
-
-/* out put 
-
- .paddingsize-5 {
-	 padding: 5 px;
+button {
+  background-color: green;
+  padding: 5px;
+  color: white;
 }
- .paddingsize-6 {
-	 padding: 6 px;
-}
- .paddingsize-7 {
-	 padding: 7 px;
-}
- .paddingsize-8 {
-	 padding: 8 px;
-}
- .paddingsize-9 {
-	 padding: 9 px;
-}
- .paddingsize-10 {
-	 padding: 10 px;
-}
- */
